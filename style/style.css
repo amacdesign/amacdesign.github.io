@@ -10,7 +10,11 @@ scroll-behavior: smooth;
 
 }
 body {
-    background : #111
+    background : #111;
+    overflow: auto;
+}
+::-webkit-scrollbar {
+  display: none;
 }
 .section {
     position:relative;
