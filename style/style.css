@@ -6,7 +6,7 @@ padding:0 ;
 box-sizing:border-box;
 font-family:'Poppins', sans-serif;
 scroll-behavior: smooth;
-max-width: 100%;
+
 
 }
 body {
@@ -25,13 +25,13 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;}
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;}
     .header .logo{
         color:#fff;
         text-decoration: none;
         font-size: 1.5em;
-        margin : 25px;
+        margin : 1.25rem;
 
     }
     #sidebar-wrapper {
@@ -39,21 +39,21 @@ body {
       position: fixed;
       z-index: 2;
       right: 0;
-      width: 250px;
+      width: 12.5rem;
       height: 100%;
       -webkit-transition: all 0.4s ease 0s;
       -moz-transition: all 0.4s ease 0s;
       -ms-transition: all 0.4s ease 0s;
       -o-transition: all 0.4s ease 0s;
       transition: all 0.4s ease 0s;
-      transform: translateX(250px);
+      transform: translateX(12.5rem);
       background: rgba(0, 0, 0,0.4);
-      border-left: 1px solid rgba(255, 255, 255, 0.1);
+      border-left: 0.05remsolid rgba(255, 255, 255, 0.1);
     }
     .sidebar-nav {
         position: absolute;
         margin: 0;
-        padding: 0 20px 0 0;
+        padding: 0 1rem 0 0;
         list-style: none;
         text-align: right;
         width: 100%;
@@ -63,7 +63,7 @@ body {
       display: inline-block;
       text-decoration: none;
       color: #fff;
-      font-size: 20px;
+      font-size: 1rem;
       line-height: 200%;
     }
     #sidebar-wrapper .sidebar-nav li a:hover {
@@ -78,12 +78,12 @@ body {
       transition: all 0.3s;
     }
     #sidebar-wrapper .sidebar-nav>.sidebar-brand {
-      font-size: 20px;
-      height: 80px;
-      line-height: 50px;
-      padding-top: 15px;
-      padding-bottom: 15px;
-      padding-left: 15px;
+      font-size: 1rem;
+      height: 4rem;
+      line-height: 2.5rem;
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      padding-left: 0.75rem;
     }
     #sidebar-wrapper .sidebar-nav>.sidebar-brand a {
       color: #fff;
@@ -93,8 +93,8 @@ body {
       background: none;
     }
     #sidebar-wrapper.active {
-      right: 250px;
-      width: 250px;
+      right: 12.5rem;
+      width: 12.5rem;
       -webkit-transition: all 0.4s ease 0s;
       -moz-transition: all 0.4s ease 0s;
       -ms-transition: all 0.4s ease 0s;
@@ -103,19 +103,19 @@ body {
     }
     .menu-toggle {
       position: fixed;
-      right: 30px;
-      top: 30px;
-      padding: 4px 10px;
+      right: 1.5rem;
+      top: 1.5rem;
+      padding: 0.2rem 0.5rem;
       text-align: center;
       color: #fff;
       z-index: 999;
-      width: 56px;
-      height: 50px;
-      line-height: 51px;
+      width: 2.8rem;
+      height: 2.5rem;
+      line-height: 2.55rem;
     }
     .menu-toggle i {
-        font-size: 30px;
-        line-height: 40px;
+        font-size: 1.5rem;
+        line-height: 2rem;
     }
     .menu-toggle:focus, .menu-toggle:hover {
       color: #fff;
@@ -138,13 +138,13 @@ body {
         bottom: 0;
         left:0;
         width: 100%;
-        height:400px ;
+        height:20rem ;
         z-index: 1;
         background: linear-gradient(to top,#111,transparent);
     }
     .content{
         position : relative;
-        max-width:900px ;
+        max-width: 45rem;
         text-align:center;
         z-index: 1;
     } 
@@ -162,8 +162,8 @@ body {
     .btn {
         position: relative;
         display: inline-block;
-        margin-top: 30px;
-        padding : 10px 30px ;  
+        margin-top: 1.5rem;
+        padding : 0.5rem 1.5rem ;  
         background: #fff;
         color: #333;
         text-decoration: none;
@@ -171,9 +171,9 @@ body {
     .btn1 {
         position: relative;
         display: inline-block;
-        margin-top: 25px;
-        margin-bottom: 30px;
-        padding : 10px 30px ;  
+        margin-top: 1.25rem;
+        margin-bottom: 1.5rem;
+        padding : 0.5rem 1.5rem ;  
         background: #fff;
         color: #333;
         text-decoration: none;
@@ -191,11 +191,11 @@ body {
     }
     .scrolldown {
         position: absolute;
-        bottom: 20px;
+        bottom: 1rem;
         left: 50%;
-        width: 40px;
-        height: 40px;
-        transform: translateY(-80px) translateX(-50%) rotate(45deg);
+        width: 2rem;
+        height: 2rem;
+        transform: translateY(-4rem) translateX(-50%) rotate(45deg);
     }
     .scrolldown span {
         position: absolute;
@@ -204,13 +204,13 @@ body {
         display: block;
         width: 100%;
         height: 100%;
-        border-bottom: 2px solid #fff;
-        border-right: 2px solid #fff;
+        border-bottom: 0.1rem solid #fff;
+        border-right: 0.1rem solid #fff;
         animation: animate 1.5s linear infinite;
         opacity: 0.5;
     }
     .scrolldown span:nth-child(1){
-        transform:translate(-15px,-15px);
+        transform:translate(-0.75rem,-0.75rem);
         animation-delay: -0.4s;
     }
     .scrolldown span:nth-child(2){
@@ -219,24 +219,24 @@ body {
 
     }
     .scrolldown span:nth-child(3){
-        transform:translate(15px,15px);
+        transform:translate(0.75rem,0.75rem);
         animation-delay: 0s;
 
     }
     @keyframes animate {
         0% {
-            top:-5px;
-            left:-5px;
+            top:-0.25rem;
+            left:-0.25rem;
             opacity:0;
         }
         25%{
-            top:0px;
-            left:0px;
+            top:0rem;
+            left:0rem;
             opacity:1;
         }
         100% {
-            top:5px;
-            left:5px;
+            top:0.25rem;
+            left:0.25rem;
             opacity:0; 
         }
     }
@@ -252,13 +252,13 @@ body {
         min-width: 50%;
         width: 50%;
         text-align: end;
-        padding-right: 40px;
+        padding-right: 2rem;
     }
     .titletext{
         font: weight 600;
         color: #fff;
         font-size: 2em;
-        margin-bottom: 10px;
+        margin-bottom: 0.5rem;
 
     }
     .text {
@@ -269,9 +269,9 @@ body {
         position: relative;
         max-width: 50%;
         width: 50%;
-        min-height: 500px;
-        margin-top:10px ;
-        margin-bottom: 10px;
+        min-height: 25rem;
+        margin-top:0.5rem ;
+        margin-bottom: 0.5rem;
     }
     .banner2,
     .banner3 {
@@ -289,7 +289,7 @@ body {
         bottom: 0;
         left:0;
         width: 100%;
-        height:400px ;
+        height:20rem ;
         z-index: 1;
         background: linear-gradient(to top,#111,transparent);
     }
@@ -301,7 +301,7 @@ body {
         top: 0;
         left:0;
         width: 100%;
-        height:400px ;
+        height:20rem ;
         z-index: 1;
         background: linear-gradient(to bottom,#111,transparent);
     }
@@ -314,20 +314,20 @@ body {
         justify-content: center;
       }
       .b2 .image{
-        width : 260px;
+        width : 13rem;
         overflow: hidden;
         cursor: pointer;
         position: relative;
-        margin:0 20px ;
+        margin:0 1rem ;
       }
       .b2 .content1 h2 {
-        font-size: 42px;
+        font-size: 2.1rem;
         color: #fff;
         text-align: center;
       }
       .b2 .content1 p {
         color: #b2b2b2;
-        font-size: 22px;
+        font-size: 1.1rem;
         text-align: center;
       }
       .b2 .image::before{
@@ -338,7 +338,7 @@ body {
         width:100%;
         height: 100%;
         background-size: cover;
-        filter: grayscale(100%);
+        filter: grayscale(80%);
         transition:.5s linear;
       }
       .b2 .image:hover::before{
@@ -348,7 +348,7 @@ body {
         background-image:url(https://images.unsplash.com/photo-1594329852649-012d9528deda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=358&q=80)
       }
       .b2 .image:nth-child(2)::before{
-        background-image:url(https://images.unsplash.com/photo-1594236089007-8180d3943012?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=401&q=80)
+        background-image:url(https://images.unsplash.com/photo-1594236089007-8180d3943012?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=401&q=80);
       }
       .b2 .image:nth-child(3)::before{
         background-image:url(https://images.unsplash.com/photo-1594149332245-27b34e5d891a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80)
@@ -356,41 +356,41 @@ body {
       .b2 .content{
         font-family: averes;
         color: black;
-        transform: translateX(-15px);
+        transform: translateX(-0.75rem);
         text-align: center;
-        margin-top: 20px;
-        transform: translateX(222px) 
+        margin-top: 1rem;
+        transform: translateX(11.1rem) 
       }
 
     .wrapper {
         width: 100%;
-        height: 400px;
+        height: 20rem;
         display: flex;
         background : rgba(17, 17, 17, 0.678);
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        letter-spacing: 2px;
+        letter-spacing: 0.1rem;
     }
     .wrapper h1{
-        margin-bottom: 20px;
-        font-size: 42px;
+        margin-bottom: 1rem;
+        font-size: 2.1rem;
         color: #fff;
     }
     .wrapper p{
-        margin-bottom: 20px;
+        margin-bottom: 1rem;
         color: #b2b2b2;
-        font-size: 20px;
+        font-size: 1rem;
     }
     .newsletter{
-        max-width: 550px;
+        max-width: 27.5rem;
         width: 100%;
         position: relative;
     }
     .newsletter .input{
         width: 100%;
-        padding: 30px 100px 30px 60px;
-        border-radius: 5px;
+        padding: 1.5rem 5rem 1.5rem 3rem;
+        border-radius: 0.25rem;
         border: none;
         font-weight: bold;
     }
@@ -398,54 +398,54 @@ body {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);	
-        left: 20px;
-        font-size: 20px;
+        left: 1rem;
+        font-size: 1rem;
     }
     .newsletter .btn{
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        right: 40px;
+        right: 2rem;
         background: #4dabf7;
-        padding: 10px 20px;
-        border-radius: 25px;
-        font-size: 12px;
-        letter-spacing: 5px;
+        padding: 0.5rem 1rem;
+        border-radius: 1.25rem;
+        font-size: 0.6rem;
+        letter-spacing: 0.3125rem;
         color: #fff;
         cursor: pointer;
         text-transform: uppercase;
-        margin: 4px;
-        margin-top:1px;
+        margin: 0.25rem;
+        margin-top:0.0625rem;
     }
     .testimonial-section{
         background: #191919;
-        padding: 80px 0;
+        padding: 5rem 0;
         text-align: center;
       }
       
       .inner-width{
         max-width: 100%;
-        margin: 0 15px;
-        padding: 0 10px;
+        margin: 0 0.9375rem;
+        padding: 0 0.625rem;
       }
       
       .testimonial-section h1{
         font-weight: 400;
-        letter-spacing: 10px;
+        letter-spacing: 0.625rem;
         text-transform: uppercase;
-        font-size: 20px;
+        font-size: 1.25rem;
         color:#fff
       }
       
       .testimonial-pics{
-        padding: 10px 0;
+        padding: 0.625rem 0;
       }
       
       .testimonial-pics img{
-        width: 120px;
-        height: 120px;
+        width: 7.5rem;
+        height: 7.5rem;
         border-radius: 50%;
-        margin: 0 5px;
+        margin: 0 0.3125rem;
         filter: grayscale(100%);
         transition: .3s;
         cursor: pointer;
@@ -473,21 +473,21 @@ body {
       
       .testimonial .description{
         text-transform: uppercase;
-        letter-spacing: 4px;
-        font-size: 15px;
+        letter-spacing: 0.25rem;
+        font-size: 0.9375rem;
         color: #fff;
       }
       .line{
-        width: 350px;
+        width: 21.875rem;
         display: inline-block;
-        height: 47px;
+        height: 2.9375rem;
         margin: 0 auto;
-        border-bottom: 1px solid white;
+        border-bottom: 0.0625rem solid white;
         position: relative;
         }
 
     .footer {
-        margin-top: 100px;
+        margin-top: 6.25rem;
         display:flex ; 
         justify-content: center;
         align-items: center;
@@ -503,17 +503,17 @@ body {
     }
     .footer .sci li a {
         text-decoration: none;
-        margin:0 20px;
+        margin:0 1.25rem;
 
     }
     .footer .sci li img {
         filter: invert(1);
-        max-width: 40px;
+        max-width: 2.5rem;
     }
     .copyright{
-        margin-top:20px ;
+        margin-top:1.25rem ;
         color: #fff;
-        font-size: 18px;
+        font-size: 1.125rem;
         font-weight: 300;
         color: #666;
         text-align: center;
@@ -523,8 +523,8 @@ body {
         text-decoration : none;
     }
     .banner2 .hack{
-        width: 400px;
-        height: 400px;
+        width: 25rem;
+        height: 25rem;
         opacity: 1;
         align-items: center;
     }
@@ -534,9 +534,9 @@ body {
       top:0;
       left:15;
       right: 0;
-      width: 10px;
+      width: 0.625rem;
       height: 100%;
-      border-radius: 10px;
+      border-radius: 0.625rem;
       background : linear-gradient(to top , #000000, #5f5f5f , #ffffff)
     }
    
