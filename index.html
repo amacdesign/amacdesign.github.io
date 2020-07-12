@@ -41,6 +41,22 @@
       js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
+    
+    <div id="progressbar"></div>
+    <script src="http://code.jquery.com/jquery-3.4.4.js"></script>
+    <script type="text/javascript">
+        $(window).scroll(function(){
+          var scroll = $(window).scrollTop(),
+          dh = $(document).height(),
+          wh = $(window).height();
+          scrollPercent = (scroll / (dh-wh)) *100;
+          $('#progressbar').css('height' , scrollPercent + '%')
+        })
+    </script>
+
+
+
+
 
     <!-- Your Chat Plugin code -->
     <div class="fb-customerchat"
