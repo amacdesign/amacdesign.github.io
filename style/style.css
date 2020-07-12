@@ -120,7 +120,7 @@ body {
       color: #fff;
     }
     .menu-toggle:hover, .menu-toggle.active {
-      background: #707070;
+      background: rgba(255, 255, 255, 0.1);
     }
     .banner {
         position:relative ; 
