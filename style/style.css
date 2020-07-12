@@ -38,7 +38,7 @@ body {
       position: fixed;
       z-index: 2;
       right: 0;
-      width: auto;
+      width: 250px;
       height: 100%;
       -webkit-transition: all 0.4s ease 0s;
       -moz-transition: all 0.4s ease 0s;
