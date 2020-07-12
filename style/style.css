@@ -357,6 +357,9 @@ body {
       .b2 .image:nth-child(3)::before{
         background-image:url(https://images.unsplash.com/photo-1594149332245-27b34e5d891a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80)
       }
+      .b2 .image:nth-child(4)::before{
+        background-image:url(https://images.unsplash.com/photo-1594329852649-012d9528deda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=358&q=80)
+      }
       .b2 .content{
         font-family: averes;
         color: black;
