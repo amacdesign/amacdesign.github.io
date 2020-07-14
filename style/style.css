@@ -40,35 +40,6 @@ body {
         margin : 1.25rem;
 
     }
-
-  .slider {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height:100%;
-    object-fit: cover;
-    opacity:0.6;
-    animation: slide 20s infinite;
-  }  
-
-  @keyframes slide {
-    25%{
-    background: url(https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);}
-    50%{
-    background: url(https://images.unsplash.com/photo-1501183638710-841dd1904471?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);}
-    75%{
-    background: url(https://images.unsplash.com/photo-1451934403379-ffeff84932da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);}
-    100%{
-    background: url(https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);}
-  }
-
-
-
-
-
-
-
     #sidebar-wrapper {
         top: 0;
       position: fixed;
@@ -277,7 +248,7 @@ body {
     }
 
     .about 
-    { position:relative ; 
+    { position:relative; 
     width : 100% ;
     display : flex;
     justify-content: center;
@@ -304,9 +275,9 @@ body {
         position: relative;
         max-width: 50%;
         width: 50%;
-        min-height: 25rem;
-        margin-top:0.5rem ;
-        margin-bottom: 0.5rem;
+        min-height: 500px;
+        margin-top:10px ;
+        margin-bottom: 10px;
     }
     .banner2,
     .banner3 {
