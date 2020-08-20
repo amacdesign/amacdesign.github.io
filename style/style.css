@@ -354,63 +354,10 @@ body {
   -ms-transform: scale(1.03);
   transform: scale(1.03);
 }
-    .wrapper {
-        width: 100%;
-        height: 20rem;
-        display: flex;
-        background : rgba(17, 17, 17, 0.678);
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        letter-spacing: 0.1rem;
-    }
-    .wrapper h1{
-        margin-bottom: 1rem;
-        font-size: 2.1rem;
-        color: #fff;
-    }
-    .wrapper p{
-        margin-bottom: 1rem;
-        color: #b2b2b2;
-        font-size: 1rem;
-    }
-    .newsletter{
-        max-width: 27.5rem;
-        width: 100%;
-        position: relative;
-    }
-    .newsletter .input{
-        width: 100%;
-        padding: 1.5rem 5rem 1.5rem 3rem;
-        border-radius: 0.25rem;
-        border: none;
-        font-weight: bold;
-    }
-    .newsletter .fas{
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);	
-        left: 1rem;
-        font-size: 1rem;
-    }
-    .newsletter .btn{
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        right: 2rem;
-        background: #4dabf7;
-        padding: 0.5rem 1rem;
-        border-radius: 1.25rem;
-        font-size: 0.6rem;
-        letter-spacing: 0.3125rem;
-        color: #fff;
-        cursor: pointer;
-        text-transform: uppercase;
-        margin: 0.25rem;
-        margin-top:0.0625rem;
-    }
+    
     .testimonial-section{
         background: #191919;
+        margin-top: 2%;
         padding: 2rem 0;
         text-align: center;
       }
@@ -424,6 +371,7 @@ body {
       .testimonial-section h1{
         font-weight: 400;
         letter-spacing: 0.625rem;
+        margin-top: 20%;
         text-transform: uppercase;
         font-size: 1.25rem;
         color:#fff
@@ -537,4 +485,43 @@ body {
       text-align: center;
       text-transform: uppercase;
       font-size: 24px;
+    }
+
+    #slider {
+      overflow: hidden;
+      margin-top: 15px;
+    }
+    #slider figure {
+      position: relative;
+      width: 500%;
+      margin: 0;
+      left: 0;
+      animation: 15s slider infinite;
+    }
+    #slider figure img {
+      width: 20%;
+      float: left;
+    }
+    @keyframes slider {
+      0% {
+        left: 0%;
+      }
+      20% {
+        left: 0%;
+      }
+      25% {
+        left: -100%;
+      }
+      45% {
+        left: -100%;
+      }
+      50% {
+        left: -200%;
+      }
+      70% {
+        left: -200%;
+      }
+      75% {
+        left: -300%;
+      }
     }
